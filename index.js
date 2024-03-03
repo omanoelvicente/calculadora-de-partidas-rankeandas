@@ -1,5 +1,5 @@
 function main() {
-    let winningBalance = calculateWins(30,1);
+    let winningBalance = calculateWins(200,1);
     let message = levelPlayer(winningBalance);
     showMessage(winningBalance, message);
 }
@@ -32,5 +32,5 @@ function levelPlayer(winningBalance)
 }
 
 function showMessage(winningBalance, message  ) {
-    alert(`"O Herói tem de saldo de ${winningBalance} está no nível de ${message}`);
+    alert(`"O Herói tem saldo de ${winningBalance} está no nível de ${message}`);
 }
